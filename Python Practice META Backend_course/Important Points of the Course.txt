@@ -1,0 +1,15 @@
+Important Points of the Course
+Self Keyword: Self keyword is put in the function. if any object of the class latter call it's function 
+then it will point to the any object of the class when the function is called. in other word it will point 
+to the object of the class by which the function is called.
+Example: 
+
+class example:
+    def function(self):
+        xyz....
+    / Objects of the class
+ex = example()
+em = example() 
+    /Calling the function of the class using objects
+print(ex.function) /here the self will point to the ex object 
+print(em.function) /and here the self will point to the em object 
